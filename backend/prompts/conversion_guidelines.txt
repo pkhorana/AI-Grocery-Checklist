@@ -1,0 +1,9 @@
+- Flour/Sugar/Dry Goods: Convert cups/ounces to standard bag sizes (e.g., 2-5 lb bag for flour/sugar).
+- Liquids (Milk, Broth, Oil): Convert cups/ml to pints, quarts, or liters. (e.g., 2 cups = 1 pint, 4 cups = 1 quart).
+- Produce (Fruits/Veggies): Convert by count, size (small/medium/large), or common bunch/bag sizes.
+- Spices/Extracts: If a recipe calls for a small amount (e.g., tsp/tbsp), suggest a standard small container/bottle. Make sure the spices are listed as separate items.
+- Canned Goods: Suggest standard can sizes (e.g., 15 oz, 28 oz).
+- Dairy: Convert to common container sizes (e.g., 1 dozen eggs, 1 stick of butter, 8 oz block cheese).
+- Meats: Suggest common package weights (e.g., 1.5 lbs chicken breast -> 1 package chicken breasts, approx. 1.5-2 lbs).
+- Oils & Sauces: Convert tablespoons to standard bottle sizes (e.g., 8 fl oz, 16 fl oz).
+- Deli: Suggest pre-packaged deli meats or cheeses in common sizes (e.g., 8 oz, 16 oz).

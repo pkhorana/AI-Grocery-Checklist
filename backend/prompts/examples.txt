@@ -1,0 +1,302 @@
+ **Input:**
+Recipe Name: Chicken Alfredo Pasta
+number of servings: 4
+
+**Output:**
+{
+"ingredients": [
+    "1.5 lbs boneless, skinless chicken breast",
+    "12 oz fettuccine pasta",
+    "2 cups heavy cream",
+    "1 cup grated parmesan cheese",
+    "4 tbsp unsalted butter",
+    "3 cloves garlic, minced",
+    "2 tbsp olive oil",
+    "Salt, to taste",
+    "Black pepper, to taste",
+    "2 tbsp chopped fresh parsley (optional)"
+],
+"grocery_list": {
+    "Meats": [
+        {
+            "name": "Chicken Breast, Boneless Skinless",
+            "quantity": "1 package (1.5-2 lbs)"
+        }
+    ],
+    "Produce": [
+        {
+            "name": "Garlic",
+            "quantity": "1 head"
+        },
+        {
+            "name": "Fresh Parsley",
+            "quantity": "1 bunch"
+        }
+    ],
+    "Dairy": [
+        {
+            "name": "Heavy Cream",
+            "quantity": "1 pint (16 fl oz)"
+        },
+        {
+            "name": "Parmesan Cheese, Grated",
+            "quantity": "1 container (6-8 oz)"
+        },
+        {
+            "name": "Unsalted Butter",
+            "quantity": "1 stick (4 oz)"
+        }
+    ],
+    "Oils & Sauces": [
+        {
+            "name": "Olive Oil",
+            "quantity": "1 bottle (12-16 fl oz)"
+        },
+    ],
+    "Pantry Staples": [
+        {
+            "name": "Salt",
+            "quantity": "1 container"
+        },
+        {
+            "name": "Black Pepper",
+            "quantity": "1 container"
+        }
+    ],
+    "Grains & Pasta": [
+        {
+            "name": "Fettuccine Pasta",
+            "quantity": "1 box (16 oz)"
+        }
+    ]
+}
+}
+
+**Input:**
+Recipe Name: Spicy Chicken Stir-fry
+number of servings: 2
+
+**Output:**
+{
+"ingredients": [
+    "1.5 lbs boneless, skinless chicken breast",
+    "2 cups broccoli florets",
+    "1 red bell pepper, sliced",
+    "1 cup carrots, sliced",
+    "3 green onions, sliced",
+    "3 cloves garlic, minced",
+    "1 tablespoon fresh ginger, minced",
+    "1/4 cup soy sauce",
+    "2 tablespoons sriracha or other hot sauce",
+    "2 tablespoons honey",
+    "2 tablespoons vegetable oil",
+    "1 tablespoon cornstarch",
+    "Salt, to taste",
+    "Black pepper, to taste",
+    "Cooked white rice, for serving"
+],
+"grocery_list": {
+    "Meats": [
+        {
+            "name": "Chicken Breast, Boneless Skinless",
+            "quantity": "1 package (1.5-2 lbs)"
+        }
+    ],
+    "Produce": [
+        {
+            "name": "Broccoli Florets",
+            "quantity": "1 bag (12-16 oz) or 1 small head"
+        },
+        {
+            "name": "Red Bell Pepper",
+            "quantity": "1 large"
+        },
+        {
+            "name": "Carrots",
+            "quantity": "1 bag (1 lb)"
+        },
+        {
+            "name": "Green Onions (Scallions)",
+            "quantity": "1 bunch"
+        },
+        {
+            "name": "Garlic",
+            "quantity": "1 head"
+        },
+        {
+            "name": "Fresh Ginger",
+            "quantity": "1 small piece (2-3 inches)"
+        }
+    ],
+    "Pantry Staples": [
+        {
+            "name": "White Rice",
+            "quantity": "1 bag (2 lbs) or 1 box (16 oz)"
+        },
+        {
+            "name": "Salt",
+            "quantity": "1 container"
+        },
+        {
+            "name": "Black Pepper",
+            "quantity": "1 container"
+        },
+        {
+            "name": "Cornstarch",
+            "quantity": "1 small box (8 oz)"
+        }
+    ],
+    "Oils & Sauces": [
+        {
+            "name": "Soy Sauce",
+            "quantity": "1 bottle (10-15 fl oz)"
+        },
+        {
+            "name": "Sriracha or Hot Sauce",
+            "quantity": "1 bottle (10-15 fl oz)"
+        },
+        {
+            "name": "Honey",
+            "quantity": "1 bottle (8-12 oz)"
+        },
+        {
+            "name": "Vegetable Oil",
+            "quantity": "1 bottle (16 fl oz)"
+        }
+    ]
+}
+}
+
+**Input:**
+Recipe Name: Butter Chicken
+number of servings: 8
+
+**Output:**
+{
+"ingredients": [
+    "3 lbs boneless, skinless chicken thighs",
+    "2 cups plain yogurt",
+    "2 cups heavy cream",
+    "1/2 cup unsalted butter",
+    "2 large onions, finely chopped",
+    "8 cloves garlic, minced",
+    "4 tbsp fresh ginger, minced",
+    "2 cans (15 oz each) tomato sauce",
+    "1/2 cup tomato paste",
+    "2 tbsp lemon juice",
+    "8 tbsp garam masala",
+    "4 tsp ground cumin",
+    "4 tsp ground coriander",
+    "4 tsp smoked paprika",
+    "2 tsp ground turmeric",
+    "2 tsp chili powder",
+    "1 tsp cayenne pepper",
+    "2 tsp ground cinnamon",
+    "Salt, to taste",
+    "Black pepper, to taste",
+    "1 bunch fresh cilantro (for garnish)",
+    "Basmati rice, for serving (optional, about 4 cups uncooked)"
+],
+"grocery_list": {
+    "Meats": [
+        {
+            "name": "Chicken Thighs, Boneless Skinless",
+            "quantity": "1 family pack (3-3.5 lbs)"
+        }
+    ],
+    "Produce": [
+        {
+            "name": "Onions",
+            "quantity": "2 large"
+        },
+        {
+            "name": "Garlic",
+            "quantity": "1 head"
+        },
+        {
+            "name": "Fresh Ginger",
+            "quantity": "1 small piece (~4 oz)"
+        },
+        {
+            "name": "Lemon",
+            "quantity": "2 medium"
+        },
+        {
+            "name": "Cilantro",
+            "quantity": "1 bunch"
+        }
+    ],
+    "Dairy": [
+        {
+            "name": "Plain Yogurt",
+            "quantity": "1 large container (32 oz)"
+        },
+        {
+            "name": "Heavy Cream",
+            "quantity": "1 pint (16 fl oz)"
+        },
+        {
+            "name": "Unsalted Butter",
+            "quantity": "1 standard box (4 sticks, 16 oz)"
+        }
+    ],
+    "Canned Goods": [
+        {
+            "name": "Tomato Sauce",
+            "quantity": "2 cans (15 oz each)"
+        },
+        {
+            "name": "Tomato Paste",
+            "quantity": "1 can (6 oz)"
+        }
+    ],
+    "Pantry Staples": [
+        {
+            "name": "Basmati Rice",
+            "quantity": "1 bag (2 lbs)"
+        },
+        {
+            "name": "Salt",
+            "quantity": "1 container"
+        },
+        {
+            "name": "Black Pepper",
+            "quantity": "1 container"
+        }
+    ],
+    "Spices & Baking Supplies": [
+        {
+            "name": "Garam Masala",
+            "quantity": "1 small jar (2-3 oz)"
+        },
+        {
+            "name": "Ground Cumin",
+            "quantity": "1 small jar (2-3 oz)"
+        },
+        {
+            "name": "Ground Coriander",
+            "quantity": "1 small jar (2-3 oz)"
+        },
+        {
+            "name": "Smoked Paprika",
+            "quantity": "1 small jar (2-3 oz)"
+        },
+        {
+            "name": "Ground Turmeric",
+            "quantity": "1 small jar (2-3 oz)"
+        },
+        {
+            "name": "Chili Powder",
+            "quantity": "1 small jar (2-3 oz)"
+        },
+        {
+            "name": "Cayenne Pepper",
+            "quantity": "1 small jar (2-3 oz)"
+        },
+        {
+            "name": "Ground Cinnamon",
+            "quantity": "1 small jar (2-3 oz)"
+        }
+    ]
+}
+}  

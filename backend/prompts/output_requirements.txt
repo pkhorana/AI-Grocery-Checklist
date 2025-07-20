@@ -1,0 +1,54 @@
+- Generate a clear, categorized grocery list, with concise ingredient names and quantities.
+- For each ingredient, specify the recommended quantity in common grocery store units 
+    (e.g., "1 bag of flour", "1 carton of milk", "1 dozen eggs", "1 pound ground beef", "1 standard jar of cinnamon").
+- Prioritize standard package sizes that reasonably cover the recipe's needs, aiming for practicality over exact measurement.
+- If a recipe calls for a small amount of an ingredient (e.g., 1/4 cup of flour, 1 teaspoon of baking soda), suggest buying a 
+    standard small package of that item, as it's a pantry staple.
+- If an ingredient is fresh produce, convert quantities (e.g., "1 medium onion" for 1 cup chopped, "1 bunch of parsley" for a few sprigs).
+- For meats, suggest common package weights (e.g., 1.5 lbs chicken breast -> 1 package chicken breasts, approx. 1.5-2 lbs).
+- Do not include items that are not typically bought in grocery stores (e.g., 
+    "water" unless specified in the recipe).
+- Return ONLY a JSON object with the following structure:
+{
+    "ingredients": [
+        "ingredient 1", 
+        "ingredient 2",
+        "ingredient 3",
+        "ingredient 4", 
+        ...
+    ],
+    "grocery_list": {
+        "Meats": [
+            {
+                "name": "item 1",
+                "quantity": "quantity 1"
+            },
+            {
+                "name": "item 2",
+                "quantity": "quantity 2"
+            }
+        ],
+        "Produce": [
+            {
+                "name": "item 1",
+                "quantity": "quantity 1"
+            }
+        ],
+        "Pantry Staples": [
+            {
+                "name": "item 1",
+                "quantity": "quantity 1"
+            }
+        ],
+        "Dairy": [
+            {
+                "name": "item 1",
+                "quantity": "quantity 1"
+            },
+            {
+                "name": "item 2",
+                "quantity": "quantity 2"
+            }
+        ]
+    }
+}
