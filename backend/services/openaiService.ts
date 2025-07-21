@@ -3,7 +3,7 @@ import {GroceryList, OpenAIResponse } from '../types/index';
 import fs from 'fs';
 
 const OPENAI_API_URL = 'https://api.openai.com/v1/chat/completions';
-const OPENAI_API_KEY = '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';
+const OPENAI_API_KEY = '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';
 
 
 if (!OPENAI_API_KEY) {
@@ -59,7 +59,7 @@ export const generateGroceryList = async (recipeName: String, numOfServings: num
         const response: AxiosResponse<OpenAIResponse> = await axios.post(
             OPENAI_API_URL,
             {
-                model: 'gpt-4.1',
+                model: 'gpt-3.5-turbo',
                 messages: [
                     {
                         role: 'user',
