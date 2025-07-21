@@ -1,9 +1,14 @@
 import axios, {AxiosResponse} from 'axios';
 import {GroceryList, OpenAIResponse } from '../types/index';
 import fs from 'fs';
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 const OPENAI_API_URL = 'https://api.openai.com/v1/chat/completions';
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
+console.log('OpenAI Key loaded:', process.env.OPENAI_API_KEY ? 'Yes' : 'No');
+console.log('Key starts with:', process.env.OPENAI_API_KEY?.substring(0, 7));
 
 if (!OPENAI_API_KEY) {
   throw new Error('OpenAI API key is not set');
