@@ -3,6 +3,7 @@ import { GroceryList, ApiResponse} from '../types';
 
 const API_BASE_URL = process.env.EXPO_PUBLIC_API_URL || 'http://localhost:3000';
 
+
 class ApiError extends Error {
     constructor(public status: number, message: string) {
         super(message);
