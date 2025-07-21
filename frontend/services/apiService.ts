@@ -12,6 +12,7 @@ class ApiError extends Error {
 
 export const generateGroceryList = async (recipeName: string, numOfServings: number): Promise<GroceryList> => {
     try {
+        console.log('API_BASE_URL', API_BASE_URL);
         const response = await fetch(`${API_BASE_URL}/api/recigo/generate-grocery-list`, {
             method: 'POST',
             headers: {
@@ -22,6 +23,7 @@ export const generateGroceryList = async (recipeName: string, numOfServings: num
                 numOfServings: numOfServings
             })
         });
+        console.log('response', response);
 
         if (!response.ok) {
             throw new ApiError(response.status, `HTTP error! status: ${response.status}`);
