@@ -3,8 +3,7 @@ import {GroceryList, OpenAIResponse } from '../types/index';
 import fs from 'fs';
 
 const OPENAI_API_URL = 'https://api.openai.com/v1/chat/completions';
-const OPENAI_API_KEY = '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';
-
+const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 
 if (!OPENAI_API_KEY) {
   throw new Error('OpenAI API key is not set');
