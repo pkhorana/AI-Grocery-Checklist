@@ -1,7 +1,7 @@
 //frontend/services/apiService.ts
 import { GroceryList, ApiResponse} from '../types';
 
-const API_BASE_URL = process.env.RAILWAY_URL;
+const API_BASE_URL = 'https://' + process.env.RAILWAY_URL;
 
 class ApiError extends Error {
     constructor(public status: number, message: string) {
